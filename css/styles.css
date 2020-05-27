@@ -1,0 +1,488 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block; } body {line-height: 1; } ol, ul {list-style: none; } blockquote, q {quotes: none; } blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none; } table {border-collapse: collapse; border-spacing: 0; }
+
+
+body {
+	background-color: black;
+	color: #FAFAFA;
+	font-family: 'EB Garamond', serif;
+	font: 14px;
+	line-height: 1em;
+	font-weight: 400;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+	background-position: center center;
+	background-size: 90% auto;
+	background-repeat: no-repeat;
+	image-rendering: pixelated;
+}
+
+/* Layout */
+
+.overlap {
+	margin-top: -2.3rem;
+}
+
+.super-overlap {
+	margin-top: -40vw;
+}
+
+.mega-overlap {
+	margin-top: -65vw;
+}
+
+.mild-overlap {
+	margin-top: -22.5vw;
+}
+
+.touch-the-sky {
+	position: relative;
+	z-index: 99;
+}
+
+.box { box-sizing: border-box;}
+
+.right { float: right;}
+
+.left { float: left;}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+	.col-100 { width: 100%; padding: 0 3vw;}
+	.col-60 { width: 60vw;}
+	.col-50 { width: 50vw; padding: 0 3vw;}
+	.col-40 { width: 40vw;}
+
+.flex-after {
+	order: 2;
+}
+
+.text-center { text-align: center}
+	/* */
+
+em {
+	font-weight: 400i;
+	font-style: italic;
+}
+
+a {
+	color: white;
+}
+
+.g-background-default {
+	background-color: black;
+}
+
+#fish {
+	margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+
+#lluis em {
+	margin-right: 0.6rem;
+}
+
+#content em {
+	margin-right: 0.2rem;
+}
+
+#credits em {
+	margin-right: 0.6rem;
+}
+
+#video {
+	background-image: url(../img/video1.png);
+	height: 100vh;
+
+}
+
+.font {
+	font-size: 3rem;
+	line-height: 1.2em;
+}
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+header{
+
+}
+
+#content {
+	width: 100%;
+	padding-top: 3rem;
+	padding-bottom: 13rem;
+}
+
+#lluis {
+	padding-top: 32vw;
+}
+
+.minicontent{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border-color: red;
+	float: left;
+
+}
+
+/* Font Styles */
+
+.title-wrapper {
+	margin-bottom: -110px;
+}
+
+
+.title-margin {
+	margin-bottom: 80px;
+}
+
+
+
+.title {
+	font-size: 7rem;
+	line-height: 1em;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: -40px;
+}
+
+.subtitle {
+	font-size: 1rem;
+	line-height: 7em;
+	text-align: center;
+	padding-top: 0;
+}
+
+.stubtitle em{
+	font-style: 400i;
+}
+
+.longtext {
+	font-size: 3rem;
+	line-height: 1em;
+	text-transform: uppercase;
+	padding: 0 5%;
+	margin: 0;
+	float: left;
+  margin-top: -1.5rem;
+}
+
+.abstract {
+  width: 100%;
+	max-width: 956px;
+	margin-top: 10rem;
+	display: inline;
+}
+
+.top {
+  width: 100%;
+	max-width: 956px;
+	margin-top: 10rem;
+	display: inline;
+}
+
+.text-block {
+	font-size: 1.5rem;
+	line-height: 1.15em;
+	width: 100%;
+}
+
+.author {
+	font-size: 1.5rem;
+	padding-top: 2rem;
+}
+
+.nakadaska {
+	margin-top: 10rem;
+}
+	.full-width-carousel {
+		background-size: cover !important;
+		height: 60vw !important;
+	} 
+
+.lyrics {
+	font-size: 7vw;
+	line-height: 1.2em;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	width: 100%;
+	padding-left: 10vw;
+	margin-top: 10rem;
+}
+
+.poem {
+	padding-left: 10.1vw;
+}
+	.poem div {
+		line-height: 1.4em;
+	}
+
+.trio .totally-center {
+	top: 30%;
+}
+
+.listen {
+	padding: 4rem 0;
+}
+
+.bandcamp {
+}
+
+.has-chickin {
+	margin: 160px 0 0;
+}
+.chickin {
+	width: 3rem;
+	height: auto;
+	margin: 0 .5rem;
+	image-rendering: auto;
+}
+
+.details {
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	padding: 0 5rem;
+}
+
+#credits {
+	padding: 3vw;
+	padding-bottom: 10vw;
+	line-height: 1.4em;
+
+}
+
+.totally-center {
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.absolute {
+	position: absolute;
+	width: 100%;
+} 
+
+.relative {
+	position: relative;
+	width: 100%;
+} 
+
+.margin {
+	padding-left: 5vw;
+	padding-top: 5vw;
+	box-sizing: border-box;
+}
+
+.more-margin {
+	padding-left: 10vw;
+	padding-top: 10vw;
+	box-sizing: border-box;
+}
+
+/* Footer */
+
+
+/* End Font Styles */
+
+.abstract2 {
+	background-image: url(../img/abstract/1.jpg);
+}
+
+.person {
+	background-image: url(../img/person/1.jpg);
+}
+.abstract3 {
+	background-image: url(../img/abstract3/1.jpg);
+}
+
+.person2 {
+	background-image: url(../img/person2/1.jpg);
+}
+
+/* Deletable stuff */
+.space {
+	padding-bottom: 20em;
+}
+
+.video {
+	z-index: 9999999;
+}
+
+
+/* Styles for the scripts */
+
+	.quit-your-job::after {
+		content: "\00a0";
+	}
+
+	.get-a-job::after {
+		content: "\00a0";
+	}
+
+	.you-so-sexy span {
+		transition: all .2s;
+	}
+
+	/* Flipping letters */
+
+	.flipping-letters span {
+		display: inline-block;
+	}
+
+	/* Flipping colors */
+
+	.flipping-colors {
+	color: white;
+	}
+	.flipping-colors .red {
+	  opacity: .3;
+	}
+	.flipping-colors .blue {
+	  opacity: .6;
+	}
+	.flipping-colors .green {
+	  color: 9;
+	}
+
+	/* Flipping decoration */
+
+	.flipping-decoration {
+		padding-right: 5%;
+		min-width: 50%;
+	} 
+
+	.flipping-decoration .red {
+		text-decoration: underline;
+	}
+
+	.flipping-decoration .blue {
+		text-transform: uppercase;
+		letter-spacing: 0em;
+	}
+
+
+	.flipping-decoration .green {
+		text-decoration: line-through;
+	}
+
+	/* Flipping letters */
+	.flipping-letters .red {
+	  transform: rotate(7deg);
+	}
+	.flipping-letters .blue {
+	  transform: rotate(180deg);
+	}
+	.flipping-letters .green {
+	  transform: rotate(-5deg);
+	}
+
+	/* Te lo haces tu? */
+	.carousel {
+		width: 100%;
+		height: 40vw;
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all .2s;
+	}
+
+	.sex {
+		height: 40vh;
+		width: 100%;
+		float: right;
+		background-position: right center;
+		transition: all 4.9s;
+	}
+
+	.tiny {
+		height: 30vh;
+		background-position: center center;
+		transition: all 3.9s;
+	}
+
+
+	.the-button {
+		position: fixed;
+		bottom: 5rem;
+		right: 5rem;
+		z-index: 999999;
+	}  
+	.deconstruct {
+		border: 2px solid #fff;
+		background-color: #000;
+		padding: 1.4rem 1.8rem;
+		font-size: 1.25rem;
+		transition: all .2s;
+		text-decoration: none;
+		font-weight: 600;
+		letter-spacing: 0.1rem;
+	}
+		.deconstruct:hover {
+			background-color: #fff;
+			color: #000;
+		}
+
+		.deconstruct span {
+			transition: all .4s;
+		} 
+		.deconstruct:hover > span {
+			transform: rotate(180deg);
+			display: inline-block;
+		}
+		.deconstruct:hover > .span2 {
+			transform: rotate(-10deg);
+			display: inline-block;
+		}
+		.deconstruct:hover > .span3 {
+			transform: rotate(15deg);
+			display: inline-block;
+		}
+
+
+	/* SOUNDCLOUDER */
+
+
+	@media screen and (max-width: 750px) {
+
+	body { font-size: 14px; } 
+
+    .col-40, .col-50, .col-60, .col-100 { width: 100vw; } 
+    .flex-after{ order: 0; }
+    .details { margin: 4vw 0; padding: 0 1rem;} 
+    .poem { padding-left: 1rem }
+    .lyrics { padding-left: 1rem }
+    .carousel{ height: 100vw; }
+    .title { font-size: 64px; line-height: 1.2em } 
+    .longtext, .flipping-colors { font-size: 24px; line-height: 1.2em}
+    .trio { position: relative; height: 100vw; margin: 5rem 0 2rem;}
+    .totally-center { position: static; margin: 0; top: 0; transform: translateY(0);} 
+    .bandcamp { padding-left: 1rem; padding-right: 1rem; width: 100vw; height: 100vw; box-sizing: border-box;}
+    .bandcamp iframe { width: 100% !important; height: 100vw !important;}
+    .the-button { display: none; }
+    .the-button { bottom: 3rem; right: 1rem;}
+}
